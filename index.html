@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amy IA</title>
+    <link rel="icon" href="Amy.ico">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #0f1420;
+            color: #e8ecf5;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            background-image: radial-gradient(
+                circle at 50% 0%, #1b2d5c 0%, #0f1420 60%
+            );
+        }
+
+        .tarjeta {
+            background: #171d2e;
+            border: 1px solid #263050;
+            border-radius: 24px;
+            padding: 48px 40px;
+            max-width: 520px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .logo {
+            width: 72px;
+            height: 72px;
+            margin: 0 auto 20px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #2f6fed, #6ea0ff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 34px;
+            font-weight: bold;
+            color: white;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 8px;
+        }
+
+        .version {
+            color: #8a96b5;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        .frase {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #c3cbe0;
+            margin-bottom: 32px;
+        }
+
+        .boton {
+            display: inline-block;
+            background: #2f6fed;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 17px;
+            padding: 14px 32px;
+            border-radius: 12px;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .boton:hover {
+            background: #1e56c4;
+            transform: translateY(-2px);
+        }
+
+        .nota {
+            margin-top: 28px;
+            font-size: 13px;
+            line-height: 1.5;
+            color: #8a96b5;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="tarjeta">
+        <div class="logo">A</div>
+
+        <h1>Amy IA</h1>
+        <p class="version">Versión 1.1.2 · Para Windows</p>
+
+        <p class="frase">
+            Tu texto largo, en pocas líneas. Amy lee por ti y te deja lo importante.
+        </p>
+
+        <a class="boton" href="https://github.com/Erosk16/AmyIA./releases/download/v1.1.1.2/AmyIA.exe">Descargar Amy IA</a>
+
+        <p class="nota">
+            Funciona en tu PC, sin enviar tu texto a internet.<br>
+            Si Windows muestra un aviso de editor desconocido, presiona
+            <b>Más información</b> y luego <b>Ejecutar de todas formas</b>.
+        </p>
+    </main>
+</body>
+</html>
